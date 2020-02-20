@@ -1,0 +1,91 @@
+body {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  background-image: url(http://terrazzco.com/new/wp-content/uploads/2019/07/Terrazzo-Tile-Flooring.jpg);
+  flex-direction: row;
+}
+#content {
+  border-style: double;
+  height: 300px;
+  width: 700px;
+  margin-top: 0mm;
+  margin-left: 130mm;
+  background-color: whitesmoke;
+  display: grid;
+  justify-content: stretch;
+}
+.message {
+  margin-left: 30mm;
+  margin-top: 10mm;
+  font-size: 14mm;
+  height: 90px;
+}
+#note {
+  font-size: 40px;
+  color: yellow;
+  border-style: double;
+  border-color: red;
+  background-color: black;
+  height: 50px;
+  margin-bottom: 220px;
+  margin-left: 40mm;
+  margin-right: 40mm;
+  text-align: center;
+}
+#company {
+  margin-left: 20mm;
+  text-align: center;
+  font-style: oblique;
+  font-size: 50mm;
+}
+#Shipping {
+  font-size: 50px;
+  border: 2px solid black;
+}
+#Shipping2 {
+  font-size: 50px;
+  border: 2px solid black;
+}
+#Subtotal {
+  font-size: 50px;
+  border: 2px solid black;
+}
+#Subtotal1 {
+  font-size: 50px;
+  border: 2px solid black;
+}
+#total3 {
+  font-size: 50px;
+  border: 2px solid black;
+}
+#total {
+  font-size: 50px;
+  border: 2px solid black;
+}
+table {
+  width: 50px;
+  margin-left: 210px;
+  margin-top: 50px;
+}
+#total3:hover {
+  color: yellow;
+}
+#Subtotal1:hover {
+  color: yellow;
+}
+#Shipping2:hover {
+  color: yellow;
+}
+#Shipping:hover {
+  color: mediumblue;
+}
+#Subtotal:hover {
+  color: mediumblue;
+}
+#total:hover {
+  color: mediumblue;
+}
+#company:hover {
+  color: purple;
+}
